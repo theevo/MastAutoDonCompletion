@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "AFB9F9A5-B6F0-4694-A615-FE6742476BC4",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MastAutoDonCompletion.xcodeproj",
+      "identifier" : "27B2DEA22BA6743F00F3D0C2",
+      "name" : "MastAutoDonCompletion"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MastAutoDonCompletion.xcodeproj",
+        "identifier" : "27B2DEB22BA6744100F3D0C2",
+        "name" : "MastAutoDonCompletionTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MastAutoDonCompletion.xcodeproj",
+        "identifier" : "27B2DEBC2BA6744100F3D0C2",
+        "name" : "MastAutoDonCompletionUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

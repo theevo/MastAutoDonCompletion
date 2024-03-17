@@ -44,6 +44,7 @@
 		27B2DEBD2BA6744100F3D0C2 /* MastAutoDonCompletionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastAutoDonCompletionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B2DEC12BA6744100F3D0C2 /* MastAutoDonCompletionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastAutoDonCompletionUITests.swift; sourceTree = "<group>"; };
 		27B2DEC32BA6744100F3D0C2 /* MastAutoDonCompletionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastAutoDonCompletionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27B2DED02BA6748600F3D0C2 /* MastAutoDonCompletion.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MastAutoDonCompletion.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		27B2DE9A2BA6743F00F3D0C2 = {
 			isa = PBXGroup;
 			children = (
+				27B2DED02BA6748600F3D0C2 /* MastAutoDonCompletion.xctestplan */,
 				27B2DEA52BA6743F00F3D0C2 /* MastAutoDonCompletion */,
 				27B2DEB62BA6744100F3D0C2 /* MastAutoDonCompletionTests */,
 				27B2DEC02BA6744100F3D0C2 /* MastAutoDonCompletionUITests */,
