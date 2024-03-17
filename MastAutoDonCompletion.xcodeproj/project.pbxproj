@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		27B2DEB82BA6744100F3D0C2 /* MastAutoDonCompletionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2DEB72BA6744100F3D0C2 /* MastAutoDonCompletionTests.swift */; };
 		27B2DEC22BA6744100F3D0C2 /* MastAutoDonCompletionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2DEC12BA6744100F3D0C2 /* MastAutoDonCompletionUITests.swift */; };
 		27B2DEC42BA6744100F3D0C2 /* MastAutoDonCompletionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2DEC32BA6744100F3D0C2 /* MastAutoDonCompletionUITestsLaunchTests.swift */; };
+		27B2DED32BA679DD00F3D0C2 /* StatusKit in Frameworks */ = {isa = PBXBuildFile; productRef = 27B2DED22BA679DD00F3D0C2 /* StatusKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B2DED32BA679DD00F3D0C2 /* StatusKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = MastAutoDonCompletion;
+			packageProductDependencies = (
+				27B2DED22BA679DD00F3D0C2 /* StatusKit */,
+			);
 			productName = MastAutoDonCompletion;
 			productReference = 27B2DEA32BA6743F00F3D0C2 /* MastAutoDonCompletion.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 27B2DE9A2BA6743F00F3D0C2;
+			packageReferences = (
+				27B2DED12BA679DD00F3D0C2 /* XCLocalSwiftPackageReference "Packages/StatusKit" */,
+			);
 			productRefGroup = 27B2DEA42BA6743F00F3D0C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -590,6 +598,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		27B2DED12BA679DD00F3D0C2 /* XCLocalSwiftPackageReference "Packages/StatusKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/StatusKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27B2DED22BA679DD00F3D0C2 /* StatusKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StatusKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27B2DE9B2BA6743F00F3D0C2 /* Project object */;
 }
